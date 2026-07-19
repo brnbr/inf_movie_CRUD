@@ -7,7 +7,7 @@ import lombok.Getter;
 @Getter
 public class CreateReviewRequest {
 
-    @Size(min = 5, max = 200)
+    @Size(max = 200)
     private String content;
     @Min(0)
     private Double rating;
